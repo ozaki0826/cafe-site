@@ -1,0 +1,88 @@
+body{
+    width: 1366px;
+}
+.header{
+    background-color: #DAC2C1;
+    height: 180px;
+    display: flex;
+    position: relative;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.ig-logo{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.ig-icon{
+    font-size: 20p;
+    font-family: serif;
+}
+.insta{
+    position: relative;
+    left: 77%;
+    top: 30px;
+    display: flex
+}
+.nav{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 60%;
+}
+.nav-item{
+    margin-right: 30px;
+    top: 140px;
+    left: 90%;
+    color: #AB2C9F;
+    font-family: serif;
+}
+.campaign-title{
+    margin-bottom: 30px;
+}
+.campaign-caption{
+    margin-bottom: 50px;
+}
+.campaign-area{
+    font-family: serif;
+    text-align: center;
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.campaign-img-area{
+    display: flex;
+    justify-content: space-around;
+    font-family: serif;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.campaign-img{
+    border: 20px solid #DAC2C1;
+}
+.img-title{
+    text-align: center;
+}
+.cafe-footer{
+    background-color: #DAC2C1;
+    height: 200px;
+    font-family: serif;
+    position: relative;
+}
+.footer-title{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+.footer-logo{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
