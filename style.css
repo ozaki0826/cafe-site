@@ -1,10 +1,10 @@
-body{
+    body{
     width: 1366px;
 }
 .header{
     background-color: #DAC2C1;
     height: 140px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
     display: flex;
     position: relative;
 }
@@ -29,14 +29,13 @@ body{
 }
 .nav{
     display: flex;
-    position: absolute;
-    top: 110px;
-    left: 60%;
+    text-align: right;
+    margin-left: auto;
+    margin-top: auto;
 }
 .nav-item{
-    margin-right: 30px;
-    top: 140px;
-    left: 90%;
+    display:inline;
+    padding:0 10px;
     color: #AB2C9F;
     transition: 1.0s ;
     font-family: serif;
@@ -158,8 +157,6 @@ body{
 .cafe-shop{
     margin-top: 500px;
     background-color: #DAC2C1;
-    position: relative;
-    max-width: 100%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -167,8 +164,11 @@ body{
 .shop-textarea{
     position: absolute;
 }
+.shop-img-contents{
+
+}
 .shop-img{
-    text-align: center;
+
 }
 .video{
     width: 80%;
